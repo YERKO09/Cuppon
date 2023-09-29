@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- ESTILOS CSS -->
+    <link rel="stylesheet" href="./assets/css/estilos.css" />
+    <!-- FUENTES -->
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- ÍCONOS -->
+    <script
+      src="https://kit.fontawesome.com/b4898d4284.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- BOOTSTRAP CSS-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <title>Desdafío 4 - Cuppon</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark verde px-5">
+        <div class="container-fluid px-lg-5 py-1 ">
+          <img class="logo-white" src="./assets/img/logos/logo-white.png" alt="logo-blanco"/>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
+            <ul class="navbar-nav text-end">
+              <li class="nav-item">
+                <a class="nav-link text-white active" aria-current="page" href="./index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#link">Destacados</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#link">Precios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white disabled" aria-disabled="true">Desactivado</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- MAIN -->
+    <main class="p-lg-5" id="link">
+      <!-- Primer Fila -->
+      <section class="my-4 mx-4 mx-sm-5">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-4">
+
+          <!-- ROW1-CARD1 -->
+          <div class="col">
+            <div class="card h-100">
+              <img src="./assets/img/cupon-1.jpg" class="card-img-top" alt="imagen cms wordpress" />
+              <div class="card-body">
+                <h5 class="fw-light">
+                  Plumón Coral Fleece estampado en modelo y tamaño a elección 
+                </h5>
+                <p class="card-text d-inline">Plumones Manolino
+                </p>
+                <p class="card-text direccion">
+                  <i class="fa-solid fa-location-dot"></i>
+                  9191 Avenida Vitacura, Chile
+                </p>                           
+              </div>
+              <div class="mx-3 card-footer bg-white">
+                <div class="d-flex justify-content-end align-items-end">
+                  <span class="text-end me-2">$45.990</span>
+                  <span class="precio-oferta fs-5 fw-medium text-end">$22.990</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- ROW1-CARD2 -->
+          <div class="col">
+            <div class="card h-100">
+              <img src="./assets/img/cupon-2.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="fw-light">Entrada para compartir + platos de fondo + postres + bebestibles</h5>
+                <p class="card-text d-inline">V for Vegan
+                </p>
+                <p class="card-text direccion">
+                  <i class="fa-solid fa-location-dot"></i>
+                  777 Jesse Pinkman, Chile
+                </p>         
+              </div>
+              <div class="mx-3 card-footer bg-white">
+                <div class="d-flex justify-content-end align-items-end">
+                  <span class="text-end me-2">$30.990</span>
+                  <span class="precio-oferta fs-5 fw-medium text-end">$12.990</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- ROW1-CARD3 -->
+          <div class="col">
+            <div class="card h-100">
+              <img src="./assets/img//cupon-3.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="fw-light">Evaluación integral + blanqueamiento dental led + limpieza + fluoración</h5>
+                <p class="card-text d-inline">Clínica Dental Quijada</p>
+                <p class="card-text direccion">
+                  <i class="fa-solid fa-location-dot"></i>
+                  1342, Blanco Encalada, Chile
+                </p>
+              </div>
+              <div class="mx-3 card-footer bg-white">
+                <div class="d-flex justify-content-end align-items-end">
+                  <span class="text-end me-2">$300.000</span>
+                  <span class="precio-oferta fs-5 fw-medium text-end">$25.990</span>
+                </div>
+              </div>
+            </div>
+          </div>
+            
+        </div>
+      </section>
+
+      <!-- Segunda Fila -->
+      <section class="mb-4 mx-4 mx-sm-5">
+        <div class="row row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-4">
+          
+          <!-- ROW2-CARD1 -->
+          <div class="col">
+            <div class="card h-100">
+              <img src="./assets/img/cupon-4.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="fw-light">Colación para 2 personas + postre (no incluye bebidas)</h5>
+                <p class="card-text d-inline-block">Suricata almacen</p class="mb-3">
+                <p class="card-text direccion">
+                  <i class="fa-solid fa-location-dot"></i>
+                  1071 Miguel Claro, Chile
+                </p>
+              </div>
+              <div class="mx-3 card-footer bg-white">
+                <div class="d-flex justify-content-end align-items-end">
+                  <span class="text-end me-2">$4.200</span>
+                  <span class="precio-oferta fs-5 fw-medium text-end">$2.100</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- ROW2-CARD2 -->
+          <div class="col">
+            <div class="card h-100">
+              <img src="./assets/img/cupon-5.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="fw-light">1, 2 o 4 tickets para Stukids. Elige sucursal</h5>
+                <p class="card-text d-inline-block">Stukids Centro de Eventos</p>
+                <p class="card-text direccion">
+                  <i class="fa-solid fa-location-dot"></i>
+                  133 El tranque, Chile
+                </p>
+              </div>
+              <div class="mx-3 card-footer bg-white">
+                <div class="d-flex justify-content-end align-items-end">
+                  <span class="text-end me-2">$4.000</span>
+                  <span class="precio-oferta fs-5 fw-medium text-end">$2.500</span>
+                </div>
+              </div>
+            </div>
+          </div>    
+          
+          <!-- ROW2-CARD3 -->
+          <div class="col">
+            <div class="card h-100">
+              <img src="./assets/img/cupon-6.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="fw-light">San Pedro de Atacama : 1 o 2 noches en alojamiento a elección
+                </h5>
+                <p class="card-text d-inline-block">D-Latam Travel
+                </p>
+                <p class="card-text">
+                </p>
+              </div>
+              <div class="mx-3 card-footer bg-white">
+                <div class="d-flex justify-content-end align-items-end">
+                  <span class="text-end me-2">$80.200</span>
+                  <span class="precio-oferta fs-5 fw-medium text-end">$44.100</span>
+                </div>
+              </div>
+            </div>
+          </div>      
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+      <section class="p-3 p-sm-5 verde ">
+
+        <!-- TÍTULO -->
+        <div class="d-flex justify-content-center pb-3">
+          <h4 class="text-white">Contáctanos</h4>
+        </div>
+
+        <!-- FORMULARIO -->
+        <div>
+            <form class="container w-lg-75">
+              <div class="mb-3">
+                <input type="text" class=" form-control fw-light" id="nombre" placeholder="Nombre">
+              </div>
+              <div class="mb-3">
+                <input type="email" class=" form-control fw-light" id="correo" placeholder="Correo electrónico">
+              </div>
+              <div class="mb-3">
+                <input type="tel" class=" form-control fw-light" id="telefono" placeholder="Teléfono">
+              </div>
+              
+              <div class="d-flex justify-content-center">
+                <button type="submit" class="btn btn-light">Enviar</button>
+              </div>
+            </form>
+        </div>
+      </section>
+        
+      <!-- COPYRIGHT -->
+      <section class="m-3 m-sm-5 d-flex flex-column align-items-center">
+          <div>
+            <img class="logo-black" src="./assets/img/logos/logo-black.png" alt="logo-negro">
+          </div>
+          <div>
+            <p>
+              © 2023 Cuppon Latam. Todos los derechos reservados.
+            </p>
+          </div>
+      </section>
+    </footer>
+
+    <!-- BOOTSTRAP JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  </body>
+</html>

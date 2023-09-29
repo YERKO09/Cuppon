@@ -1,0 +1,50 @@
+/* FUENTES 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');*/
+*{
+    font-family: roboto, sans-serif;
+}
+
+.verde{
+    background-color: #28a745;
+}
+
+p, span, ul{
+    color:#707070;
+    font-weight: lighter;
+}
+
+.precio-oferta{
+    color: #28a745;
+}
+
+.direccion{
+    font-size: 13px;
+}
+
+.logo-white{
+    width: 150px;
+}
+
+.logo-black{
+    width: 100px;
+}
+
+/*responsive imagenes cards*/
+
+@media (min-width: 1280px){
+    .card img{
+        height: 27vh;
+    }
+}
+
+@media (max-width: 1279px){
+    .card img{
+        height: 24vh;
+    }
+}
+
+@media (max-width: 650px){
+    .card img{
+        height: auto;
+    }
+} 
